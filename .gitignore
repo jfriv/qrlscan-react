@@ -1,0 +1,68 @@
+#########
+## api ##
+#########
+
+# ignore builds
+build
+generatedJUnitFiles
+
+# ignore BBEdit project file
+*.bbprojectd
+
+# ignore Intellij IDEA Files
+*.iml
+*.iws
+*.ipr
+*.idea
+
+# ignore tmp files
+tmp/*
+
+.metadata
+.project
+.DS_Store
+
+version.properties
+*.zip
+
+# gradle / java
+**/.gradle/*
+
+# node npm modules
+node_modules
+.editorconfig
+
+# npm debug logs
+npm-debug.log
+npm-debug*
+
+# Sublime junk
+**/*.sublime-project
+**/*.sublime-workspace
+api/.gradle/
+api/buildSrc/.gradle/
+
+# intellij
+api/buildSrc/out/
+api/out/
+
+
+#########
+## www ##
+#########
+
+# dependencies
+www/node_modules/
+
+# testing
+www/coverage/
+www/src/**/*.jsx
+www/tests/__coverage__/
+www/tests/**/*.jsx
+
+# production
+www/dist/
+
+# misc
+.DS_Store
+npm-debug.log*
